@@ -23,7 +23,8 @@ Dates below are npm publication dates. The earliest rapid-release series is grou
 
 ### Fixed
 
-- Promoted status-less `Responses failed` errors with replayable encrypted reasoning onto the existing same-model mismatch recovery path so `continue` omits rejected encrypted reasoning (#1).
+- Retried encrypted-reasoning mismatches once in the same turn by omitting rejected encrypted reasoning before surfacing the fixed clean-session guidance (#220).
+- Promoted status-less `Responses failed` errors with replayable encrypted reasoning onto the existing same-model mismatch recovery path so `continue` omits rejected encrypted reasoning.
 
 ## 1.5.2 - 2026-08-23
 
